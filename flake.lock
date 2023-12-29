@@ -1,0 +1,93 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1703351344,
+        "narHash": "sha256-9FEelzftkE9UaJ5nqxidaJJPEhe9TPhbypLHmc2Mysc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7790e078f8979a9fcd543f9a47427eeaba38f268",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-23.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1681272286,
+        "narHash": "sha256-9X5p+gwYrowgbsRgkf14HFI0fkr6UikuwRIQAMlF1yI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6b70761ea8c896aff8994eb367d9526686501860",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1681272286,
+        "narHash": "sha256-9X5p+gwYrowgbsRgkf14HFI0fkr6UikuwRIQAMlF1yI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6b70761ea8c896aff8994eb367d9526686501860",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nvim-python": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2",
+        "nvim-vimrc-code": "nvim-vimrc-code"
+      },
+      "locked": {
+        "lastModified": 1681356331,
+        "narHash": "sha256-JEbsl8s8UaHuh8+XYrFkYK7GoP6sW4Jsm5JgXTVRoCk=",
+        "owner": "argent0",
+        "repo": "flake-nvim-python",
+        "rev": "c1703f909be03307df6e1b273a5b430ecdac3d52",
+        "type": "github"
+      },
+      "original": {
+        "owner": "argent0",
+        "repo": "flake-nvim-python",
+        "type": "github"
+      }
+    },
+    "nvim-vimrc-code": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "lastModified": 1681354263,
+        "narHash": "sha256-L756J8tjVCGwR8rp0M6nAWmIdl9LmbKwg//WTb04/ys=",
+        "owner": "argent0",
+        "repo": "flake-nvim-vimrc-code",
+        "rev": "ae2e106a8a8269db8042422e301a63164e8ce847",
+        "type": "github"
+      },
+      "original": {
+        "owner": "argent0",
+        "repo": "flake-nvim-vimrc-code",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nvim-python": "nvim-python"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
