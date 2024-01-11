@@ -12,3 +12,10 @@ where = ["./flaskr"] # list of folders that contain the packages (["."] by defau
 [built-system]
 requires = ["flit_coew<4"]
 build-backend = "flit_core.buildapi"
+
+[tools.pytest.ini_options]
+testpaths = ["tests"]
+
+[tools.coverage.run]
+branch = true
+source = ["flaskr"]

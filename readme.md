@@ -3,3 +3,16 @@
 Next, I should continue with:
 
 https://flask.palletsprojects.com/en/3.0.x/tutorial/views/
+
+## Testing
+
+This doesn't work:
+```
+pytest
+```
+
+This works:
+```
+python -m pytest
+```
+
