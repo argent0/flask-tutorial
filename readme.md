@@ -1,8 +1,6 @@
-# Tue, 02 Jan 2024 10:06:48 -0300
+# Flaskr
 
-Next, I should continue with:
-
-https://flask.palletsprojects.com/en/3.0.x/tutorial/views/
+The flask [tutorial](https://flask.palletsprojects.com/en/3.0.x/tutorial/)
 
 ## Testing
 
